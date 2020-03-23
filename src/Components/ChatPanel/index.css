@@ -3,3 +3,24 @@
     width: 26em;
     border-right: 1px solid lightgray;
 }
+
+.planet-placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.planet-placeholder img {
+    width: 10em;
+    filter: grayscale(100%);
+    opacity: 0.4;
+}
+
+.planet-placeholder p {
+    color: rgba(0,0,0,.4);
+    font-size: 1.1em;
+    font-family: 'Roboto';
+    margin-bottom: 10em;
+}

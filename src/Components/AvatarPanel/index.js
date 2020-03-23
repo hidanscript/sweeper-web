@@ -5,11 +5,13 @@ import './index.css';
 
 export default function AvatarPanel() {
 
-    console.log(Placeholder.Messages);
+    const username = sessionStorage.getItem('username');
 
     return (
         <div className="avatar-panel">
             <img className="avatar-panel-avatar" src={Placeholder.Avatar} alt="avatar"/>
+
+            <p>{ username }</p>
 
             <div className="options">
                 <i className="fas fa-ellipsis-v"></i>

@@ -10,16 +10,13 @@ export default function ChatMessages() {
 
     const userDefault = {
         user_id: 15,
-        username: 'David Marcano'
+        username: sessionStorage.getItem('username')
     }
 
     const [ messages, setMessages ] = useState([]);
     const [ messageAdded, setMessageAdded ] = useState(0);
     
     useEffect(() => {
-        if(!messageAdded) {
-            setMessages(Placeholder.Messages);
-        }
         gotoBottom("messages");
     }, [messageAdded]);
 

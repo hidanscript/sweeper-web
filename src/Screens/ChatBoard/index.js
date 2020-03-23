@@ -1,6 +1,6 @@
 import React from 'react';
-import ChatPanel from '../ChatPanel';
-import ChatScreen from '../ChatScreen';
+import ChatPanel from '../../Components/ChatPanel';
+import ChatScreen from '../../Components/ChatScreen';
 
 import './index.css';
 

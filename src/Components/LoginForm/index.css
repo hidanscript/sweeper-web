@@ -1,0 +1,19 @@
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 3em;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-form .label-title {
+    font-size: 2em;
+    font-family: 'Roboto';
+    color:gray;
+    margin: 0.5em;
+}
