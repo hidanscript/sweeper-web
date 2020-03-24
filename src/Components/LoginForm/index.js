@@ -34,7 +34,10 @@ function LoginForm() {
 
         if(username.length < 22) {
             sessionStorage.setItem('username', username);
-        } 
+            sessionStorage.setItem('user_id', Math.floor(Math.random() * 10000));
+        } else {
+            alert("Username can not contain more than 21 characters");
+        }
     }
 
     if(!isLogged) {
